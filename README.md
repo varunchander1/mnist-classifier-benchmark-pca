@@ -57,14 +57,14 @@ The project then retrains every method on the first *k* principal components, fo
 |---|---|
 | `MNIST_Classifier_Comparison.ipynb` | The nine classifiers on raw pixels, with the shared evaluation helper |
 | `MNIST_Classifier_PCA_Analysis.ipynb` | PCA analysis: explained variance, reconstructions, every model retrained at each k |
-| `M3 Project Report – Classification Methods and PCA on MNIST.pdf` | Full report, including pros and cons of each method |
+| `MNIST_Classifier_Benchmark_PCA_Report.pdf` | Full report, including pros and cons of each method |
 | `requirements.txt` | Python dependencies |
 
 ## Getting started
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook M3_Code.ipynb
+jupyter notebook MNIST_Classifier_Comparison.ipynb
 ```
 
 **Data:** download `train.csv` from Kaggle's [Digit Recognizer](https://www.kaggle.com/competitions/digit-recognizer/data) competition, save it in this folder as `mnist_train.csv`, and point the `read_csv` path in the first code cell at it. The dataset is not included in this repo because of its size (77 MB).
