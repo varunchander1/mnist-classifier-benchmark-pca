@@ -1,0 +1,17 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+
+# Course materials (not my work)
+*Project_Problem.pdf
+Project Submission Guidlines.docx
+
+# Duplicate zipped reports
+*.zip
+
+# Data (large, download separately: see README)
+*.csv
