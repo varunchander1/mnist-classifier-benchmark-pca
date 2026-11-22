@@ -2,7 +2,6 @@
 
 **A head-to-head comparison of nine classification methods on handwritten digits, and a study of how PCA helps distance-based models but hurts tree-based ones.**
 
-Part of the *AI & ML for Industry* programme, IIT Delhi (Module 3: Classification).
 
 ---
 
