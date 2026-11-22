@@ -55,8 +55,8 @@ The project then retrains every method on the first *k* principal components, fo
 
 | File | Description |
 |---|---|
-| `M3_Code.ipynb` | The nine classifiers on raw pixels, with the shared evaluation helper |
-| `M3_Code_PCA.ipynb` | PCA analysis: explained variance, reconstructions, every model retrained at each k |
+| `MNIST_Classifier_Comparison.ipynb` | The nine classifiers on raw pixels, with the shared evaluation helper |
+| `MNIST_Classifier_PCA_Analysis.ipynb` | PCA analysis: explained variance, reconstructions, every model retrained at each k |
 | `M3 Project Report – Classification Methods and PCA on MNIST.pdf` | Full report, including pros and cons of each method |
 | `requirements.txt` | Python dependencies |
 
